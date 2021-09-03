@@ -1,0 +1,25 @@
+
+.img_style{
+    overflow: hidden;
+    width: 250px;
+    height: 300px;
+    border: 2px solid rgb(206, 160, 9);
+    border-radius: 50%;
+}
+.text_col{
+    color: rgb(114, 114, 112);
+}
+.p_text{
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(131, 131, 125);
+    margin:0px 20px
+}
+@media (max-width:500px){
+    .p_text{
+        font-size: 18px;
+    }
+}
+.col1{
+    color: rgb(24, 153, 104);
+}

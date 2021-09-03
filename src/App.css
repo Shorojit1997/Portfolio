@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  width: 100%;
+  /* background: rgb(16, 126, 126); */
+}
+
+._first{
+  position: relative;
+  color: white;
+
+}
+.text_div{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 30px;
+}
+.hello{
+  color: rgb(197, 154, 13);
+  font-size: 2rem;
+}
+.name{
+  color: white;
+  font-size: 4rem;
+}
+@media (max-width: 500px) {
+  .name{
+    font-size: 1.6rem;
+  }
+  .text_div{
+    font-size: 1.5rem;
+  }
+}
+/* img{
+  max-width: 50%;
+  max-height: 50%;
+} */
