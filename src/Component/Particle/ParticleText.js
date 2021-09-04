@@ -1,6 +1,6 @@
 import React from 'react';
 import Typicals from './Typicals'
-import Resume from './Resume.pdf'
+
 
 const ParticleText = () => {
     return (
@@ -10,8 +10,8 @@ const ParticleText = () => {
             <Typicals/>
 
             <div className='d-flex justify-content-center'>
-                <a href={Resume} className='btn  btn-outline-warning  m-1  '>My Work</a>
-                <a href={Resume} className='btn  btn-warning  m-1 text-light '>Resume</a>
+                <a href={'#'} className='btn  btn-outline-warning  m-1  '>My Work</a>
+                <a href={'#'} className='btn  btn-warning  m-1 text-light '>Resume</a>
             </div>
             
         </div>
