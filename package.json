@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
-  "homepage": "https://canhiredme.xyz",
+  "homepage": "https://sagorportfolio.netlify.app",
   "engines": {
     "node": "12.19.0",
     "npm": "6.14.8"

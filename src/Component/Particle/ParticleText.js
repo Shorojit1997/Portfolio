@@ -10,8 +10,8 @@ const ParticleText = () => {
             <Typicals/>
 
             <div className='d-flex justify-content-center'>
-                <a href={'#'} className='btn  btn-outline-warning  m-1  '>My Work</a>
-                <a href={'#'} className='btn  btn-warning  m-1 text-light '>Resume</a>
+                <a href={'home'} className='btn  btn-outline-warning  m-1  '>My Work</a>
+                <a href={'about'} className='btn  btn-warning  m-1 text-light '>Resume</a>
             </div>
             
         </div>
